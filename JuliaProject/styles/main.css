@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: grey;
+    min-height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+
+nav ul li a:hover{
+    color: pink;
+}
+
+
+.active a {
+    color: pink; 
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+       
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: pink; 
+    margin: 1rem;
+}
