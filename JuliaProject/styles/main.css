@@ -53,7 +53,7 @@ body {
   background-image: url("../imgs/landscape.jpeg");
 }
 .container{
-    
+
     width: 80%;
     margin: auto;
 }
@@ -81,4 +81,30 @@ body {
 
 .statement p {
     margin-top: 10px;
+}
+.interesting-text {
+  background: -webkit-linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interesting-text2 {
+  text-transform: lowercase;
+  background: -webkit-linear-gradient(
+    180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.interesting-text3 {
+  text-transform: lowercase;
+  background: -webkit-linear-gradient(
+    90deg, #00DBDE 0%, #FC00FF 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
