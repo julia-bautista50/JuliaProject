@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+header, article, aside, footer, section{
+  width: 100%;
+}
+header, article, aside, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  height: 20vh;
+
+}
+section{
+  height: 75vh;
+
+}
+nav{
+  height: 10%;
+  display:flex;
+  justify-content: space-between;
+
+}
+.nav{
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+}
+ul{
+  display: flex;
+
+
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+li a:nth-child(1){
+  padding: 0 3px;
+}
+li a:nth-child(2){
+  padding: 0 10px;
+}
+article{
+  height: 70%;
+}
+aside{
+  height: 20%;
+}
+footer{
+  height: 5vh;
+}

@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 0;
+  margin: auto;
+  ffont-size: calc(0.6em + 0.5vw);
+  background-color; #6e6e6e;
+  color: #ddd;
+}
+body, header, section, nav,
+ul, article, aside, li, a, div{
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+ul{
+
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
